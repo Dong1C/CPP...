@@ -168,8 +168,8 @@ int main() {
 
 		cleardevice();
 		chessboard->renderChessBoard();
-		chessboard->judgeWin();
 		FlushBatchDraw();
+		chessboard->judgeWin();
 	}
 
 	EndBatchDraw();
